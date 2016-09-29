@@ -33,8 +33,8 @@ QRLJacking attack consists of two sides:
 1. Open your Firefox browser!
 2. Write "about:config" in the url area, click the "i'll be careful, i promise" confirmation button.
 3. Search for a preference named "security.csp.enable" and change it's value to "false" by double clicking it to allow performing an XHR Request over a different domain (We're not supporting leaving this preference disabled, you may do that while testing, but after that you should set the preference to its original state).
-4. Instal Greasemonkey addon (https://addons.mozilla.org/en-US/firefox/addon/greasemonkey) and be sure that the module file "WhatsAppQRJackingModule.js" is loaded and already running!
-5. Now We're Ready, Browse to our example "https://web.whatsapp.com" on your side, Wait for a WhatsApp session to be loaded, Greasemonkey should now inject our WhatsApp module file to catch and  .
+4. Install Greasemonkey addon (https://addons.mozilla.org/en-US/firefox/addon/greasemonkey) and be sure that the module file "WhatsAppQRJackingModule.js" is loaded and already running!
+5. Now we're Ready, Browse to our example "https://web.whatsapp.com" on your side, Wait for a WhatsApp session to be loaded, Greasemonkey should now inject our WhatsApp module file to catch and  .
 6. Send the direct link of the final phishing page to a victim "Once the QR scanned, Victim's session is yours now"
 
 
@@ -48,7 +48,7 @@ The technical paper clarifying everything about QRLJacking attack vector can be 
 
 # Vulnerable Web Applications and Services
 
-There is a lot of well-known web applications and Services which are vulnerable to this attack till the date we wrote this paper. Here's some examples (that we have reported) including but not limited to:
+There is a lot of well-known web applications and Services which are vulnerable to this attack till the date we wrote this paper. Here are some examples (that we have reported) including but not limited to:
 
 ### Chat Applications:
 
